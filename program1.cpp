@@ -20,5 +20,6 @@ int main()
     std::string beac="is";
     std::cout<<sentence<<'\n'<<beac<<'\n';
     std::cout<<asphalt::x;
+    std::cout<<mud::x;
     return 0;
 }
