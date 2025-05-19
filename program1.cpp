@@ -1,9 +1,9 @@
 #include<iostream>
 namespace rainterrain_asphalt{
-    int x=34;
+    int x=3;
 }
 namespace asphalt{
-    int x=34;
+    int x=5;
 }
 namespace mud{
     int x=34;
@@ -19,7 +19,7 @@ int main()
     std::string sentence= "arpan";
     std::string beac="is";
     std::cout<<sentence<<'\n'<<beac<<'\n';
-    std::cout<<asphalt::x;
-    std::cout<<mud::x;
+    std::cout<<asphalt::x<<'\n';
+    std::cout<<mud::x<<'\n';
     return 0;
 }
